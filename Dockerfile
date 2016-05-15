@@ -10,7 +10,8 @@ WORKDIR /app
 RUN mix local.hex --force
 COPY mix.exs /app/
 RUN mix hex.info && \
-mix do deps.get, deps.compile
+mix deps.get && \
+mix deps.compile
 
 COPY . /app
 RUN mix compile && \
