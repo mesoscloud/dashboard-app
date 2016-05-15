@@ -1,0 +1,22 @@
+{
+    "id": "/dashboard-app",
+
+    "mem": 512.0,
+
+    "container": {
+        "type": "DOCKER",
+        "docker": {
+            "image": "mesoscloud/dashboard-app",
+
+            "network": "BRIDGE",
+
+            "portMappings": [
+                { "containerPort": 4000, "servicePort": 80 },
+            ]
+        }
+    },
+
+    "healthChecks": [
+        { "protocol": "HTTP", "portIndex": 0 }
+    ]
+}
