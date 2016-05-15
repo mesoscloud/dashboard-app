@@ -18,5 +18,5 @@ RUN mix compile && \
 mix test
 
 ENTRYPOINT ["/usr/local/bin/dumb-init"]
-CMD ["iex", "-S", "mix"]
+CMD ["mix", "run", "--no-halt"]
 EXPOSE 4000
