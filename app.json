@@ -11,7 +11,7 @@
             "network": "BRIDGE",
 
             "portMappings": [
-                { "containerPort": 4000, "servicePort": 80 },
+                { "containerPort": 4000, "servicePort": 80 }
             ]
         }
     },
