@@ -1,6 +1,7 @@
 {
     "id": "/dashboard-app",
 
+    "cpus": 0.5,
     "mem": 256.0,
     "instances": 2,
 
