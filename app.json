@@ -1,7 +1,8 @@
 {
     "id": "/dashboard-app",
 
-    "mem": 512.0,
+    "mem": 256.0,
+    "instances": 2,
 
     "container": {
         "type": "DOCKER",
