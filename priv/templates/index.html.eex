@@ -6,6 +6,11 @@
     <script src="/static/d3.v3.min.js" language="JavaScript"></script>
     <script src="/static/liquidFillGauge.js" language="JavaScript"></script>
     <script src="/static/jquery-1.12.3.min.js" language="JavaScript"></script>
+    <script language="JavaScript">
+      $(window).resize(function() {
+          location.reload();
+      });
+    </script>
     <style>
         body {
           background-color: black;
