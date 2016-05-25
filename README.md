@@ -3,3 +3,5 @@
 # dashboard-app
 
 Dashboard App
+
+![screenshot](screenshot.png)
